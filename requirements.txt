@@ -3,3 +3,9 @@ plotly
 pandas
 dash-bootstrap-components
 Flask
+numpy
+datetime
+math
+os
+base64
+dash_table
