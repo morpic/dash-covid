@@ -18,7 +18,7 @@ from dash.dependencies import Input, Output, State
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 csv_url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/ecdc/full_data.csv"
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 
 raw_data = None
 smaller_frame = None
